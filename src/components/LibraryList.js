@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import { connect } from 'react-native';
+import { connect } from 'react-redux';
 import { FlatList } from 'react-native';   // renders only components that are currently visible in the list 
 import ListItem from './ListItem'; 
 
