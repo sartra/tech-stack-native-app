@@ -8,7 +8,7 @@ class ListItem extends Component {
   render() {
     console.log('props', this.props)
 
-    const { id, title } = this.props.library;
+    const { id, title } = this.props.library.item;
 
     return (
       <CardSection > 
@@ -18,4 +18,3 @@ class ListItem extends Component {
   }
 }
 
-export default ListItem; 
