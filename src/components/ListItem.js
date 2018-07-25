@@ -6,9 +6,13 @@ import { CardSection } from './common';
 
 class ListItem extends Component {
   render() {
+    console.log('props', this.props)
+
+    const { id, title } = this.props.library;
+
     return (
       <CardSection > 
-        <Text>{this.props.library.title}</Text>
+        <Text>{title}</Text>
       </CardSection>
     );
   }
